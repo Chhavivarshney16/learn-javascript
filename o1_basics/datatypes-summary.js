@@ -18,15 +18,34 @@
 
 // Refrence()/Nonprimitive datatype ->Array , Object ,Functions
 const heros=["chhavi","tiya","umang"]
-console.log(typeof  heros)
+// console.log(typeof  heros)
 
 let myobj={
     name:"chhavi",
     age:22,
 }
-console.log(typeof myobj)
+// console.log(typeof myobj)
 
 const myFunction =function(){
     console.log("HELLO WORLD");
 }
-console.log(typeof myFunction)
+// console.log(typeof myFunction)
+
+// ********************************************************
+
+// Stack(Primitive) ,Heap(Non-Primitive)
+
+let myYoutubeId="chhavi16"
+let anothername=myYoutubeId
+anothername="yes youcandoit"
+// console.log(myYoutubeId)
+// console.log(anothername)
+
+let userone={
+    email:"chhavi@gmail.com",
+    upi:13214251,
+}
+let usertwo=userone
+usertwo.email="sffngquhg@gmail.com"
+console.log(userone)
+console.log(usertwo)
